@@ -1,4 +1,4 @@
-package com.mercadaopocos.mercadao.entities.enums;
+package com.mercadaopocos.mercadao.entities;
 
 import java.time.Instant;
 import java.util.Objects;

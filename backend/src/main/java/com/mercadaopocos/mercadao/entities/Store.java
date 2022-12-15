@@ -6,7 +6,6 @@ import java.util.Objects;
 
 import javax.persistence.GenerationType;
 
-import com.mercadaopocos.mercadao.entities.enums.Image;
 import com.mercadaopocos.mercadao.entities.enums.Section;
 
 import jakarta.persistence.Entity;

@@ -1,6 +1,8 @@
-package com.mercadaopocos.mercadao.entities.enums;
+package com.mercadaopocos.mercadao.entities;
 
 import java.util.Objects;
+
+import com.mercadaopocos.mercadao.entities.enums.Section;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
