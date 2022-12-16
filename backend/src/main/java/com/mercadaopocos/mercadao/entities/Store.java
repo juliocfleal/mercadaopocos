@@ -28,6 +28,7 @@ public class Store {
 	private String instagram;
 	private String facebook;
 	private Section section;
+	
 
 	@OneToMany
 	private List<Image> images = new ArrayList<>();
