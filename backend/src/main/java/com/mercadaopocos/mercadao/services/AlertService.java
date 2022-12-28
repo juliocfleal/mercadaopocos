@@ -54,4 +54,12 @@ public class AlertService {
 		return response;
 		
 	}
+	
+	public void delete(Long id) {
+		try {
+					repository.deleteById(id);
+		} catch (Exception e) {
+			new ResourceNotFoundException("Alert not found!");
+		}
+	}
 }
